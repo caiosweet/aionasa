@@ -16,6 +16,8 @@ Contents
 
    apod
 
+   epic
+
 
 Python example - APOD
 ---------------------
