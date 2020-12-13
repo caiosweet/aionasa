@@ -10,6 +10,13 @@ with open('./aionasa/__init__.py', 'r') as f:
     line = f.readline()
     version = eval(line[14:])
 
+extras_require = {
+    'docs': [
+        'sphinx',
+        'sphinxcontrib_trio',
+    ]
+}
+
 setuptools.setup(
     name="aionasa",
     version=version,
@@ -18,7 +25,8 @@ setuptools.setup(
     description="An async python wrapper for NASA open APIs.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/nwunderly/aio-nasa",
+    extras_require=extras_require,
+    url="https://github.com/nwunderly/aionasa",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
