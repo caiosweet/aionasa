@@ -1,9 +1,20 @@
 # ENAE380 Final Project - aionasa
 
-An async python wrapper for the NASA open APIs. ([api.nasa.gov](https://api.nasa.gov/))
+
+### About the project
+
+An async python wrapper for the NASA open APIs.
 
 Our final project is the [aionasa.epic module](https://github.com/nwunderly/aionasa/tree/enae380/aionasa/epic).
 This README will be a guide to using that module.
+
+
+### Requirements
+
+- Python 3.8
+- A NASA API key from [api.nasa.gov](https://api.nasa.gov/)
+    - without this, the API key `DEMO_KEY` will be used, which has a much more restrictive rate limit.
+- The `enae380` branch of this library installed from github (instructions below)
 
 
 ### Installing
@@ -24,8 +35,6 @@ Example code using this module can be found [here](https://github.com/nwunderly/
 ### Using the CLI/GUI
 
 The GUI tool is launched by running the `aionasa.epic` module as a script, with the `python -m` command.
-
-**(\_\_\_MORE EXPLANATION HERE\_\_\_)**
 
 The `--help` option will give a breakdown of how to use this command:
 
